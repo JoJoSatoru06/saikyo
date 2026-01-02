@@ -1,0 +1,43 @@
+@utility text-h1 {
+  @apply text-4xl font-extrabold tracking-tight text-balance;
+}
+
+@utility text-h2 {
+  @apply text-3xl font-semibold tracking-tight;
+}
+
+@utility text-h3 {
+  @apply text-2xl font-semibold tracking-tight;
+}
+
+@utility text-h4 {
+  @apply text-xl font-semibold tracking-tight;
+}
+
+@utility text-large {
+  @apply text-lg font-semibold;
+}
+
+@utility text-lead {
+  @apply text-muted-foreground text-xl;
+}
+
+@utility text-list {
+  @apply my-6 ml-6 list-disc [&>li]:mt-2;
+}
+
+@utility text-small {
+  @apply text-sm leading-none font-medium;
+}
+
+@utility text-muted {
+  @apply text-muted-foreground text-sm;
+}
+
+@utility text-p {
+  @apply leading-7 not-first-of-type:mt-6;
+}
+
+@utility text-body {
+  @apply text-base leading-relaxed;
+}
